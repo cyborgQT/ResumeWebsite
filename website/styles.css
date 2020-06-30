@@ -1,0 +1,134 @@
+/*html*/
+html{
+  background-color: #CAE8F8;
+  overflow:scroll;
+}
+/*wrapper*/
+.wrapper{
+  margin:0 auto;
+  width: 1500px;
+}
+/*fonts*/
+@font-face{
+	font-family:'Bellota';
+	src: url('Fonts/Bellota/web fonts/bellota_light_macroman/Bellota-Light-webfont.eot');
+	src: url('Fonts/Bellota/web fonts/bellota_light_macroman/Bellota-Light-webfont.eot?iefix') format('eot'),
+	     url('Fonts/Bellota/web fonts/bellota_light_macroman/Bellota-Light-webfont.woff') format('woff'),
+	     url('Fonts/Bellota/web fonts/bellota_light_macroman/Bellota-Light-webfont.ttf') format('truetype'),
+	     url('Fonts/Bellota/web fonts/bellota_light_macroman/Bellota-Light-webfont.svg#Vanilla') format('svg');
+}
+/*nav bar*/
+.nav{
+  overflow: hidden;
+  /*background: linear-gradient(to bottom, #3399ff 0%, #0059b3 100%);*/
+  background-image: url("Images/abstract_blue.jpg");
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+}
+/*nav links*/
+.nav a {
+  font-family: 'Bellota';
+  font-weight: bold;
+  color: white;
+  padding: 45px;
+  font-size: 28px;
+  text-decoration: none;
+
+}
+.nav a.active{
+  text-shadow: 1px 1px 2px black, 0 0 20px blue, 0 0 5px #0059b3;
+  }
+  .nav a:hover{
+    text-shadow: 1px 1px 2px black, 0 0 20px blue, 0 0 5px #0059b3;
+  }
+  /*headshot*/
+.headshot img{
+  margin-left: 165px;
+  margin-top: 20px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: thick;
+  border-color: #3399ff;
+
+
+}
+
+
+/*bio*/
+.bio #name{
+  font-family: 'Bellota';
+  font-weight: bold;
+  text-align: center;
+  font-size: 28px;
+}
+.bio{
+  /*border: 2px solid #F2F3F4;
+  border-width: 3px;
+  border-radius: 20px;
+  /*background-color: #F8F9F9;*/
+  background-image: linear-gradient(to bottom, #A2D8F0 0%, 	#43ADE1 100%);
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 40%;
+  float:left;
+  border-radius: 20px;
+
+}
+.gamejams{
+float:left;
+}
+.content{
+  background: white;
+  border-radius: 20px;
+  margin: -10px 10px 10px 10px;
+  padding-bottom: 5px;
+  /*margin-left: 5px;
+  margin-top: -21px;
+  margin-right: 5px;
+  margin-bottom: -10px;*/
+}
+.bio ul{
+  list-style: none;
+}
+.bio #university{
+  background: url(Images/university-50.png) no-repeat;
+  padding: 20px 20px 20px 50px;
+}
+.bio #major{
+  background: url(Images/diploma-50.png) no-repeat;
+  padding: 20px 50px 20px 52px;
+}
+.bio #minor{
+  background: url(Images/diploma-50.png) no-repeat;
+  padding: 20px 50px 20px 52px;
+}
+.bio #grad{
+  background: url(Images/graduation-50.png) no-repeat;
+  padding: 20px 50px 20px 52px;
+}
+/*resume*/
+.resume{
+  padding-left: 50px;
+  padding-bottom: 20px;
+  float:left;
+}
+.container{
+  background-image: linear-gradient(to bottom, #A2D8F0 0%, 	#43ADE1 100%);
+  border-radius: 20px;
+  padding: 5px;
+  margin: 20px;
+  width:100%;
+}
+ #heading{
+  font-family: 'Bellota';
+  text-align: center;
+}
+.resume p{
+  text-align: center;
+  width: 100%;
+  position: relative;
+
+
+}

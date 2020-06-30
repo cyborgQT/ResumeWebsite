@@ -1,0 +1,15 @@
+/*html*/
+html{
+  background-color: #CAE8F8;
+  overflow:scroll;
+}
+/*wrapper*/
+.wrapper{
+  margin:0 auto;
+  width: 1500px;
+}
+.content p{
+  font-size: 12;
+  text-align: center;
+  color: pink
+}
